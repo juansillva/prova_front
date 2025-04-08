@@ -1,0 +1,39 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  padding: 2.5rem;
+  gap: 6rem;
+}
+
+main img {
+  width: 100%;
+  grid-column: 1;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 3.5rem;
+  grid-column: 2;
+  position: relative;
+}
+
+#detalhe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  z-index: -1;
+}
+
+.apresentacao h1 {
+  font-size: 4.5rem;
+}
+
+.apresentacao p {
+  color: var(--greyprimary);
+  font-size: 20px;
+  font-weight: 500;
+}

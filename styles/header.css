@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--blacksecondary);
+  text-decoration: none;
+}

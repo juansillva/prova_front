@@ -1,0 +1,22 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding: 2.5rem;
+  gap: 2rem;
+  background-color: var(--blackprimary);
+}
+
+footer p {
+  grid-column: 1;
+  color: var(--whiteprimary);
+}
+
+#contato {
+  color: var(--whiteprimary);
+}
+
+#contato a {
+  font-size: 24px;
+  color: var(--whiteprimary);
+}

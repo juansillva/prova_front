@@ -1,22 +1,41 @@
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
-  padding: 2.5rem;
-  gap: 2rem;
+  padding: 4rem;
   background-color: var(--blackprimary);
+  gap: 2rem;
+  position: relative;
 }
 
-footer p {
-  grid-column: 1;
+.footer-info p {
+  font-size: 1rem;
+
   color: var(--whiteprimary);
+}
+
+#detalhe-footer {
+  position: absolute;
+  top: -3rem;
+  left: 24px;
+
+  width: 100px;
+  z-index: 1;
 }
 
 #contato {
   color: var(--whiteprimary);
 }
 
+#contato h2 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
 #contato a {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: var(--whiteprimary);
+  text-decoration: underline;
 }

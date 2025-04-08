@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 2fr;
   padding: 2.5rem;
   gap: 6rem;
+  margin-bottom: 2rem;
 }
 
 #experiencia h1 {
@@ -21,16 +22,18 @@
 
 .descricao-experiencia p {
   color: var(--greyprimary);
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 
 .projeto-habilidades {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   background-color: var(--greyprimary);
   padding: 1rem;
   border-radius: 6px;
+  align-content: center;
 }
 
 .projeto-habilidades::before {
@@ -43,6 +46,10 @@
   background-color: #ffc100;
 }
 
+.projeto-habilidades h4 {
+  font-size: 1.2rem;
+}
+
 .caixa-projeto {
   display: flex;
   flex-direction: column;
@@ -51,9 +58,9 @@
 }
 
 .caixa-projeto p {
-  color: var(--blacksecondary);
+  color: #414141;
   font-size: 1rem;
-  font-weight: 100;
+  text-align: start;
 }
 
 .caixa-habilidades {
@@ -73,4 +80,6 @@
   padding: 8px 8px 8px 8px;
   list-style: none;
   border-radius: 6px;
+  font-size: 1rem;
+  color: #414141;
 }

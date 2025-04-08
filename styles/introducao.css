@@ -15,15 +15,15 @@ main img {
   display: flex;
   flex-direction: column;
   justify-self: center;
-  gap: 3.5rem;
+  gap: 2rem;
   grid-column: 2;
   position: relative;
 }
 
 #detalhe {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -10px;
+  left: -20px;
   width: 100px;
   z-index: -1;
 }
